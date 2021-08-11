@@ -1,0 +1,300 @@
+*
+{margin: 0;
+padding: 0;}
+.prenav
+{display:flex;
+justify-content: space-between;
+width: auto;
+height:auto;
+background-color: #1e1f1d;
+}
+.btonbuy
+{padding:5px;
+border-radius: 5px;
+background-color: #81CF23;
+color:#fff;
+margin: 15px 20px 15px 0;
+width: 90px;
+height: auto;
+cursor:pointer;
+border: solid 1px #A6B09B;
+}
+.btonbuy:hover
+{background-color: #68962F;}
+.logo1
+{margin: 15px 0 10px 15px;
+}
+.imglogo1
+{width: 165px;
+height: 17 px;
+padding: 5px;}
+.textnav
+{text-decoration: none;
+color: #000;
+font-size: 1.2em;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.listanav   
+{list-style: none;
+margin: 0 15px;
+padding: 15px;}
+.nav
+{display: flex;
+justify-content: space-between;
+margin:20px 40px;}
+.navcentro
+{display: flex;}
+.btonnav
+{ padding:15px 30px;
+    border-radius: 10px;
+    background-color: #378123;
+    color:#fff;
+    width: auto;
+    height: auto;
+    cursor:pointer;
+    border: solid 1px #A6B09B;
+font-size: 1.1em;
+font-weight: bold;}
+.btonnav:hover
+{background-color: #74AD30;}
+.imagenavada
+{width:165px;
+height: 38px;
+padding: 15px;
+margin-top: -10px;}
+.fa-fire-alt
+{margin-right: 10px;}
+.decoleft
+{width: auto;
+height: 140px;
+margin: 140px 0;}
+.watchtext
+{text-decoration: none;
+color: #0F9EDC;
+font-size: 1.5em;
+font-weight: bolder;
+}
+.fa-play-circle
+{margin-right: 20px;
+font-size: 1.3em;
+}
+.bannerprincipal
+{display: flex;
+justify-content: space-between;
+margin: 80px 0;}
+.container1
+{height: 100vh;
+}
+.titulobanner
+{font-size:4em;}
+.imagenbannerderecha
+{margin-right: 60px;
+height: 420px;}
+.textobanner
+{width: 500px;
+margin: 30px;}
+.textobanner > p
+{font-size: 1.3em;
+}
+.titulobanner ,
+.watchtext ,
+.textobanner > p
+{margin: 10.5px 0;}
+.cursos
+{height:100vh;
+}
+.beginners, .marketers, .professionals
+{background-color: #E6E612;
+border-radius: 10px;
+margin: 30px;}
+.tablas
+{display:grid;
+grid-template-columns:repeat(3,1fr);
+height: 100vh;
+margin: 50px;}
+.imgbeg
+{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    height: 21.147rem;
+    width: 18.093rem;
+}
+.textocurso
+{margin: 40px 30px;
+}
+.titulocurso, .encabezadocurso
+{margin: 20px;}
+.titulocurso
+{color: #8F7925;
+font-size: 1.2rem;}
+.encabezadocurso
+{font-size: 2rem;}
+.botonescursos
+{margin: 10px 0 50px 0}
+.btoncursos
+{   padding:10px;
+border-radius: 10px;
+background-color: rgba(0, 0, 0, 0.6);
+color:#fff;
+font-size: 0.8rem;
+cursor:pointer;
+font-weight: bold;
+border: solid 1px #A6B09B;
+line-height: 40px;
+
+}
+.green
+{background-color: #2CA103;}
+.marketers
+{background-color: #8CE76D;}
+.professionals
+{background-color: #83F4F4;}
+.blue
+{background-color: #0E819E;}
+.builder
+{height: 100vh;
+}
+.logobuilder
+{display: block;
+margin: 100px auto 10px auto;}
+.titulobuilder
+{text-align: center;
+color: #000;
+font-size: 3rem;
+margin-bottom: 30px;}
+.builderlist
+{list-style: none;
+margin: 35px;}
+.navtxtbuilder
+{
+    text-decoration: none;
+font-size: 1.5rem;
+color: #000;
+padding: 5px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;}
+.fa-window-restore,
+.fa-layer-group,
+.fa-window-maximize,
+.fa-window-maximize,
+.fa-wpforms,
+.fa-user-friends
+{margin-right: 10px;}
+.back:hover
+{background-color:#627375;
+}
+.rightbuilder
+{float: right;}
+.contentbuilder
+{display: flex;
+justify-content: space-around;}
+.rightbuilder
+{margin-top: 35px;}
+.info
+{margin-top: 200px;
+text-align: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif;}
+.tituloinfo
+{font-size: 2.5rem;}
+.pinfo
+{font-size: 1rem;
+font-weight: normal;
+margin: 20px;
+line-height: 30px;}
+.tablasinfo
+{display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(2,1fr);
+margin: 100px 50px 20px 50px;
+gap: 20px;}
+.titulotabla
+{margin-top: 20px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.imgtabla
+{height:14.688rem;
+width: 22.683;}
+.titulotabla > p
+{font-size: 1.1rem;
+padding: 5px;}
+.more
+{font-weight: bold;
+background-color:#55D74D;
+height: auto;
+width: auto;
+padding: 20px 30px;
+font-size: 1.1rem;
+margin-bottom: 100px;}
+.more:hover
+{background-color: rgba(0,0,0,0.7);
+}
+.fa-arrow-right{
+    margin-left: 10px;
+}
+.advantages
+{height: 100vh;
+width: auto;}
+.tituload, .pad
+{text-align: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 3rem;}
+.tituload
+{margin-top: 100px;}
+.pad{font-size: 1rem;
+    font-weight: normal;
+margin: 20px 0 100px 0;
+line-height: 40px;}
+.titulotablad
+{text-align: center;
+font-weight:bold;}
+.tablasad
+{display: flex;
+justify-content: space-evenly;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+margin: 50px;
+}
+.imgad, .imgad2
+{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 5rem;
+    width: 4.77rem;
+    margin-bottom: 20px;
+}
+.imgad2
+{width: auto}
+.us{
+    height: 98vh;
+    width: auto;
+    display: flex;
+    margin-bottom: 10px;
+
+    
+}
+.team
+{height: 100%;
+width: 40%;}
+.bio{
+    width: 100vw;
+    background-color: palegoldenrod;
+
+}
+.aboutus
+{
+border-bottom: #000 solid 1px;
+margin: 70px;
+line-height: 40px;
+font-size: 2rem;
+padding-bottom: 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: normal;}
+.urlus
+{text-decoration: none;
+color: #000;
+margin-left: 70px;}
+.bio
+{display: flex;
+    width: 100vw;
+flex-direction: column;
+justify-content: center;
+}
+
+
