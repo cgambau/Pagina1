@@ -1,0 +1,16 @@
+{
+  "name": "pagina1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cgambau/Pagina1.git",
+  "author": "cgambau <carlosgambau@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "snowpack": "^3.8.6"
+  },
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+}
+}
